@@ -32,7 +32,7 @@ public class ex02 {
         for(int i = 0; i < name.size()-1; i++){
             if(name.get(i).equals(name.get(i + 1)))count++;
             else{
-                System.out.println(name.get(i) + " повторяется:" + count);
+                System.out.println(name.get(i) + " повторяется: " + count);
                 count = 1;
             }
         }
